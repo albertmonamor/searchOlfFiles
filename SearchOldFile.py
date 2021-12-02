@@ -188,15 +188,6 @@ def dmpAndTemp(_f):
     return False
 
 
-# noinspection PyUnusedLocal for_Event_baahaa
-def SelectedFromDrop(Call):
-    pass
-
-
-def CreateLabel(parent: Tk, xp, yp, font="italic 13", fg="white"):
-    Label(parent, font=font, fg=fg).place(xp, yp)
-
-
 MWin = Tk()
 MWin.geometry("730x499")
 
@@ -322,6 +313,6 @@ MWin.mainloop()
 
 r"""
 C:\Windows.old
-C:\Users\saban\AppData\Local\Temp
+C:\Users\IDK\AppData\Local\Temp
 C:\Windows\Logs\WindowsUpdate
 """
