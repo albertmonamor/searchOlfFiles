@@ -10,7 +10,7 @@ def LetPerForDir(Path):
                    stderr=sp.PIPE)
 
     if _data.stderr.decode():
-        return _data.stderr.decode()
+        return "NO."
 
     return "OK."
 
